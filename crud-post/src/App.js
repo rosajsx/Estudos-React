@@ -1,9 +1,12 @@
 import React from 'react';
-import PostList from './components/PostList/index';
+import Routes from './routes';
 
 function App() {
   return (
-    <PostList/>
+    <div className="APP">
+      <Routes/>
+
+    </div>
   );
 }
 

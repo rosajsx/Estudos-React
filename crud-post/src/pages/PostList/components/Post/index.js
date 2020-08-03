@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
 
@@ -10,6 +11,7 @@ const Post = (props) =>{
     <span>{props.body}</span>
     <button onClick={props.edit}>Editar</button>
     <button onClick={props.remove}>Exluir</button>
+    <Link to={`/posts/${props.title}`}>Clique aqui</Link>
     </div>
   )
 
