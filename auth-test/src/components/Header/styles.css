@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  height: 6rem;
+  background-color: #cc333f;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}

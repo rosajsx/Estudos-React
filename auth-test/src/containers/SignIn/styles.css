@@ -1,0 +1,51 @@
+.sign-container {
+  height: 100vh;
+  background-color: #c23a45;
+  overflow: hidden;
+}
+
+.sign-container a {
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  width: 9rem;
+  color: black;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  margin: 1.5rem;
+  transition: all 0.2s;
+  border: 2px solid black;
+  border-radius: 0.8rem;
+}
+
+.sign-container a:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.sign-container main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.sign-container main form {
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  width: 60%;
+  height: 50%;
+  border: 2px solid black;
+  padding: 1rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 1200px) {
+  .sign-container main form {
+    justify-content: center;
+    max-width: 25rem;
+  }
+}
