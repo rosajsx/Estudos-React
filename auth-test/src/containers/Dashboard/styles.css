@@ -1,11 +1,16 @@
+*{
+  overflow: hidden;
+}
+
 .dash-container{
   display: flex;
   align-items: center;
   flex-direction: column;
-
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  background-color: #c23a45;
 }
 
 
@@ -18,4 +23,40 @@
   font-weight: 700;
   font-size: 1.5rem;
 }
+
+
+h1{
+  margin: 1rem;
+}
+
+.row button{
+  margin: 0.8rem;
+}
+
+.row button span{
+  margin: 1rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  margin-bottom: 10rem;
+  
+}
+
+.container img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.container h2{
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+
 
